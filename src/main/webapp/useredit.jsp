@@ -50,20 +50,21 @@
                                 <form action="UsersaveServlet" method="POST">
                                     <br/>
                                     <div class="form-group input-group">
-                                        <span class="input-group-addon"><i class="fa fa-tag"></i></span>
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                                         <label for="username"></label><input type="text" value="${user.username}"
                                                                              class="form-control" name="username"
                                                                              id="username" placeholder="用户名"/>
                                     </div>
                                     <div class="form-group input-group">
-                                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                                         <label for="password"></label><input type="password" value="${user.password}"
                                                                              class="form-control"
                                                                              name="password" id="password"
                                                                              placeholder="输入密码"/>
                                     </div>
                                     <div class="form-group input-group">
-                                        <span class="input-group-addon">@</span>
+                                        <span class="input-group-addon"><i
+                                                class="glyphicon glyphicon-envelope"></i></span>
                                         <label for="email"></label><input type="email" value="${user.email}"
                                                                           class="form-control" name="email"
                                                                           id="email" placeholder="你的邮箱"/>
@@ -79,7 +80,7 @@
                                     </select>
                                     </div>
                                     <div class="form-group input-group">
-                                        <span class="input-group-addon"><i class="fa fa-circle-o-notch"></i></span>
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-book"></i></span>
                                         <label for="jobtitle"></label><input type="text" value="${user.jobtitle}"
                                                                              class="form-control" name="jobtitle"
                                                                              id="jobtitle" placeholder="你的职称"/>

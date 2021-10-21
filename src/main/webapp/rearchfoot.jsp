@@ -13,7 +13,8 @@
         <%@include file="top.jsp" %>
         <div class="nav" style="background:black;">
             <%@include file="left.jsp" %>
-            <div id="page-wrapper" style=" background: url(img/background.PNG); background-size:100% 100% ;background-attachment: fixed">
+            <div id="page-wrapper"
+                 style=" background: url(img/background.PNG); background-size:100% 100% ;background-attachment: fixed">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="tile">
@@ -32,6 +33,7 @@
                                     </thead>
                                     <tbody>
                                     <c:forEach items="${requestScope.baoxiaos}" var="baoxiao">
+                                        <%--                                        获取数据循环判断--%>
                                         <tr>
                                             <td>${baoxiao.id}</td>
                                             <td>${baoxiao.username}</td>
@@ -40,6 +42,7 @@
                                             <td>${baoxiao.summary}</td>
                                             <td>${baoxiao.feiyong}</td>
                                             <c:choose>
+                                                <%--                                                根据不同条件执行不同语句--%>
                                                 <c:when test="${baoxiao.audit==1}">
                                                     <td>未审批</td>
                                                 </c:when>
