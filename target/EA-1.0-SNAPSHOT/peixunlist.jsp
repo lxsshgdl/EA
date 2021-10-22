@@ -20,7 +20,8 @@
         <%@include file="top.jsp" %>
         <div class="nav" style="background:black;">
             <%@include file="left.jsp" %>
-            <div id="page-wrapper" style=" background: url(img/background.PNG); background-size:100% 100% ;background-attachment: fixed">
+            <div id="page-wrapper"
+                 style=" background: url(img/background.PNG); background-size:100% 100% ;background-attachment: fixed">
                 <div class="row text-center ">
                     <div class="col-md-12">
                         <br/><br/>
@@ -69,6 +70,7 @@
     </c:when>
     <c:otherwise>
         <%response.sendRedirect("login.jsp");%>
+        <%--        实现页面跳转重定向--%>
     </c:otherwise>
 </c:choose>
 </body>

@@ -13,7 +13,8 @@
         <%@include file="top.jsp" %>
         <div class="nav" style="background:black;">
             <%@include file="left.jsp" %>
-            <div id="page-wrapper" style=" background: url(img/background.PNG); background-size:100% 100% ;background-attachment: fixed">
+            <div id="page-wrapper"
+                 style=" background: url(img/background.PNG); background-size:100% 100% ;background-attachment: fixed">
                 <div class="row text-center  " style="margin-left:50px;">
                     <div class="col-md-12">
                         <br/><br/>
@@ -28,16 +29,17 @@
                                 <form action="RepwServlet" method="POST">
 
                                     <div class="form-group input-group">
-                                        <span class="input-group-addon"><i class="fa fa-tag"></i></span>
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                                         <input type="password" class="form-control" name="password" id="password"
                                                placeholder="当前密码"/>
                                     </div>
                                     <div class="form-group input-group">
-                                        <span class="input-group-addon"><i class="fa fa-tag"></i></span>
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                                         <input type="password" class="form-control" name="npassword" id="npassword"
                                                placeholder="新密码"/>
                                     </div>
-                                    <input type="submit" value="修改密码" class="btn btn-success">
+                                    <input type="submit" value="修改密码" class="btn btn-block"
+                                           style="background-color: #00CE6F;color: white">
                                 </form>
                             </div>
 

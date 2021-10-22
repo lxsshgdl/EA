@@ -49,7 +49,6 @@
                                            style="background-color: #00CE6F;color: white">
                                 </form>
                             </div>
-
                         </div>
                     </div>
                 </div>

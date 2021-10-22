@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
          pageEncoding="utf-8" %>
+<%--在页面正常显示中文--%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%--引入标签库的定义--%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,6 +12,7 @@
 <body>
 <c:choose>
     <c:when test="${not empty sessionScope.users}">
+        <%--        sessionScope隐含对象，用来取得指定范围内的属性值，而不能取得其他相关信息。not empty用来判空--%>
         <%@include file="top.jsp" %>
         <div class="nav" style="background:black;">
             <%@include file="left.jsp" %>
@@ -28,7 +31,8 @@
                     <c:set var="select4" value="${selected='selected'}"/>
                 </c:when>
             </c:choose>
-            <div id="page-wrapper" style=" background: url(img/background.PNG); background-size:100% 100% ;background-attachment: fixed">
+            <div id="page-wrapper"
+                 style=" background: url(img/background.PNG); background-size:100% 100% ;background-attachment: fixed">
                 <div class="row text-center  ">
                     <div class="col-md-12">
                         <br/><br/>
