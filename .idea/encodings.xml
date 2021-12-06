@@ -2,48 +2,6 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/dao/BaoxiaoDao.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/dao/DBUtil.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/entity/Baoxiao.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/entity/Peixun.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/entity/Shenbao.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/entity/User.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/BaoxiaoDelServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/BaoxiaoEditServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/BaoxiaoSPServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/BaoxiaoServlet.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/BaoxiaosaveServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/BxlistServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/ExitServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/LDBXlistServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/LDSBlistServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/LoginServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/MPxlistServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/PxDelServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/PxEditServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/PxfabuServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/PxlistServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/PxsaveServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/RegistServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/RepwServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/SblistServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/SearchServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/ShenbaoDelServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/ShenbaoEditServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/ShenbaoSPServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/ShenbaoServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/ShenbaosaveServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/ShlistServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/UserDelServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/UserEditServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/UseraddServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/UserjsServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/UsersaveServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/UsershServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/servlet/userlistServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/util/ConvertUtil.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" charset="UTF-8" />
-    <file url="PROJECT" charset="GBK" />
   </component>
 </project>
