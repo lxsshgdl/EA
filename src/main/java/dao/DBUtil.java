@@ -4,13 +4,13 @@ import java.sql.*;
 
 public class DBUtil {
 
-	static String url = "jdbc:mysql://localhost:3306/train?serverTimezone=GMT&useSSL=true&characterEncoding=utf-8";
+	static String url = "jdbc:mysql://localhost:3306/train?serverTimezone=GMT";
     static String user ="root";
     static String password ="123456";
 	
 	public static Connection getConnection(){
 		Connection conn=null;
-		 try{  Class.forName("com.mysql.jdbc.Driver");//加载JDBC-MySQL驱动
+		 try{  Class.forName("com.mysql.cj.jdbc.Driver");//加载JDBC-MySQL驱动
 	      }
 	      catch(Exception e){}
 		try {
