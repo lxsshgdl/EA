@@ -9,15 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3431c6ba-9c94-404b-9b49-bbcef0f4aacd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/DBUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EA-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/EA-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EA-1.0-SNAPSHOT/WEB-INF/classes/dao/DBUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EA-1.0-SNAPSHOT/WEB-INF/classes/dao/DBUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/DBUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/DBUtil.class" afterDir="false" />
-    </list>
+    <list default="true" id="3431c6ba-9c94-404b-9b49-bbcef0f4aacd" name="Changes" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +17,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -146,11 +139,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639053692531</updated>
-      <workItem from="1639053693802" duration="477000" />
+      <workItem from="1639053693802" duration="800000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1639054275274</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639054275274</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <created>1639054345043</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639054345043</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
